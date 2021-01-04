@@ -6,7 +6,7 @@ $(document).ready(function() {
         datepickerOptions: {
 //             minDate: 0,
 //             maxDate: null,
-            numberOfMonths : 2,
+//             numberOfMonths : 2,
         },
         applyButtonText: "Confirm",
         rangeSplitter: '<span>|</span>',
