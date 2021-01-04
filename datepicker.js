@@ -4,9 +4,9 @@ $(document).ready(function() {
         altFormat: 'd, M yy',
         initialText: 'Select date range...',
         datepickerOptions: {
-//             minDate: 0,
-//             maxDate: null,
-//             numberOfMonths : 2,
+            minDate: 0,
+            maxDate: null,
+            numberOfMonths : 12,
         },
         applyButtonText: "Confirm",
         rangeSplitter: '<span>|</span>',
