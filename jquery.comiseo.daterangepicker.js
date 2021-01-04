@@ -39,7 +39,7 @@
 			altFormat: 'yy-mm-dd', // submitted date format - inside JSON {"start":"...","end":"..."}
 			verticalOffset: 0, // offset of the dropdown relative to the closest edge of the trigger button
 			mirrorOnCollision: true, // reverse layout when there is not enough space on the right
-			autoFitCalendars: true, // override datepicker's numberOfMonths option in order to fit widget width
+			autoFitCalendars: false, // override datepicker's numberOfMonths option in order to fit widget width
 			applyOnMenuSelect: true, // whether to auto apply menu selections
 			open: null, // callback that executes when the dropdown opens
 			close: null, // callback that executes when the dropdown closes
