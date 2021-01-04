@@ -1052,6 +1052,7 @@ html[dir="rtl"] .comiseo-daterangepicker-triggerbutton::before{
     position: relative;
     top: 100px!important;
     bottom: 120px;
+    height: calc(100vh - 220px);
 }
 .comiseo-daterangepicker-presets {
     display: none;
