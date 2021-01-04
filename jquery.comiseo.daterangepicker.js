@@ -426,7 +426,7 @@
 			triggerButton = buildTriggerButton($originalElement, classname, options);
 			presetsMenu = buildPresetsMenu(classname, options, usePreset);
 			calendar = buildCalendar(classname, options);
-			autoFit.numberOfMonths = 12; // save initial option!
+			autoFit.numberOfMonths = options.datepickerOptions.numberOfMonths; // save initial option!
 			if (autoFit.numberOfMonths instanceof Array) { // not implemented
 				options.autoFitCalendars = false;
 			}
